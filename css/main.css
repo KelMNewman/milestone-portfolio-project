@@ -1,0 +1,340 @@
+/***** BASE STYLES *****/
+
+body {
+  background: #ececec;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  color: #82a309;
+  float: left;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 60px;
+}
+
+h2 {
+color: #444141;
+font-family: 'Josefin Sans',sans-serif;
+font-size: 46px;
+}
+
+h2 span {
+  color: #82a309;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+}
+
+h4 {
+  color: #82a309;
+  font-family: 'La Belle Aurore', cursive;
+  font-size: 60px;
+  float: left;
+}
+
+p {
+  font-family: 'nunito sans', sans-serif;
+  font-size: 17px;
+  line-height: 40px;
+}
+
+.logo-icon {
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 55px 0;
+}
+
+.page-heading {
+  float: left;
+}
+
+.cover {
+  object-fit: cover;
+  object-position: 50% 0%;
+  width: 250px;
+  height: 150px;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  float: left;
+  width: 370px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+
+/***** HEADER *****/
+
+header {
+  height: 175px;
+}
+
+header h1 {
+  font-size: 60px;
+  padding: 5px 0;
+}
+
+nav {
+  float: right;
+  padding: 70px 45px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  list-style: none;
+  color: #444141;
+  font-size: 28px;
+  margin-left: 35px;
+  padding-left: 5px;
+  text-decoration: none;
+  font-variant: small-caps;
+}
+
+
+/***** INTRO *****/
+
+#intro {
+  background: #ececec;
+  padding: 0px 0;
+}
+
+.laptop {
+  margin: auto;
+  padding: 0;
+}
+#intro-image {
+  width: 500px;
+  margin-left: 25px;
+}
+
+#intro ul {
+    list-style: none;
+}
+
+#intro ul li {
+   display: inline-block;
+}
+
+#intro ul li img {
+  width: 35px;
+  margin-right: 20px;
+  margin-left: -5px;
+  float: left;
+}
+
+#intro h2 {
+  line-height: 60px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+
+/***** SKILLS *****/
+
+#skills .full-width {
+  background: #f9f9f9;
+  height: 200px;
+  border-top: 3px solid #82a309;
+  border-bottom: 3px solid #82a309;
+  margin-bottom: 65px;
+  width: 100%;
+}
+
+#skills h2 {
+  color:#82a309;
+  float: left;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 48px;
+  margin-top: 75px;
+  padding-left: 120px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#skills ul {
+    list-style: none;
+}
+#skills ul li {
+     padding-left: 30px;
+     padding-top: 35px;
+     display: inline-block;
+}
+#skills ul img {
+    font-size: 32px;
+    padding-right: 0px;
+}
+
+
+/***** PORTFOLIO *****/
+
+
+#portfolio {
+  background-color: #f4f4f4;
+  border-top: 3px solid #82a309;
+  height: 760px;
+  width: 100%;
+  padding: 5px 0 60px 5px;
+
+}
+
+#portfolio-page p {
+  font-size: 16px;
+  line-height: 30px;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#portfolio h4 {
+  margin: auto;
+  padding: 50px 0 0 20px;
+  width: 280px;
+}
+
+#portfolio img {
+  padding-bottom: 20px;
+}
+
+#comp-icon {
+  margin-top: 58px;
+  margin-left: 0px;
+}
+
+/***** ABOUT *****/
+
+#about .logo-icon {
+  margin-top: 25px;
+}
+
+#about .full-width {
+  height: 650px;
+  width: 100%;
+  padding: 5px;
+}
+
+#about p {
+  font-size: 20px;
+  line-height: 40px;
+  width: 580px;
+}
+
+#about .half-width {
+  margin-top: 40px;
+  margin-left: 65px;
+  margin-right: 0px;
+  width: 400px;
+}
+
+#profile-pic {
+  margin-top: 15px;
+  border: 10px solid white;
+  margin-left: 265px;
+}
+
+/***** CONTACT *****/
+
+#contact .full-width {
+  width: 100%;
+  padding: 5px;
+}
+
+#contact .logo-icon {
+  margin-top: 25px;
+}
+
+#contact .half-width {
+  margin-top: 30px;
+  margin-left: 20px;
+  width: 550px;
+  float: left;
+}
+#contact-image {
+  border: 10px solid white;
+  width: 500px;
+  margin-left: 65px;
+}
+
+#contact-info {
+  padding-left: 90px;
+  margin-top: 30px;
+}
+
+#contact-info ul li img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+#contact-info ul li {
+  display: inline-block;
+  float: left;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+  padding-left: 105px;
+}
+
+#envelope {
+  padding: 0px 10px 0 105px;
+  width: 30px;
+}
+
+#email-header{
+    font-size: 32px;
+    font-weight: 400;
+    margin: -30px 0 5px 0;
+}
+#socialmedia-header {
+    font-size: 29px;
+    font-weight: bold;
+    margin: 40px 0 10px 0;
+}
+#contact a {
+    color: #82a309;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#contact-bottom {
+  width: 1250px;
+
+}
+#contact-bottom a {
+    color: #82a309;
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact-bottom ul li {
+  display: inline-block;
+  float: right;
+  margin-right: 30px;
+}
+
+#contact-bottom ul li img {
+  width: 35px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+}
